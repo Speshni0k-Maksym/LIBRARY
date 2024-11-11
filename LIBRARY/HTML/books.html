@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/books.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>SPG Library</title>
+</head>
+
+<body>
+    <div class="menu_box">
+        <h3>MENU</h3>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="/HTML/main.html">Main</a>
+                </li>
+                <li>
+                    <a href="/HTML/search.html">Search</a>
+                </li>
+                <li>
+                    <a href="/HTML/books.html">Books</a>
+                </li>
+                <li>
+                    <a href="/HTML/visiters.html">Visiters</a>
+                </li>
+                <li>
+                    <a href="/HTML/list.html">List</a>
+                </li>
+                <li>
+                    <a href="/HTML/stats.html">Stats</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <header class="flex">
+        <div class="burger flex">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h2 class="header_books">BOOKS</h2>
+        <h1>
+            SPG Library
+        </h1>
+        <h3>
+            You can add books to this page!!
+        </h3>
+    </header>
+    <section class="sec1">
+        <div class="add_book">
+            <h1>Add book</h1>
+            <form action="" class="form_add_book">
+                <div class="image">
+                    <label for="image">Image</label>
+                    <br>
+                    <input type="text" name="image" placeholder="Enter the link for the photo" id="add_book_image">
+                </div>
+                <div class="name_book">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" placeholder="Enter name of the book" id="add_book_name">
+                </div>
+                <div class="author">
+                    <label for="author">Author</label>
+                    <br>
+                    <input type="text" name="author" placeholder="Enter author of the book" id="add_book_author">
+                </div>
+                <div class="genre">
+                    <label for="genre">Genre</label>
+                    <br>
+                    <input type="text" name="genre" placeholder="Enter genre of the book" id="add_book_genre">
+                </div>
+                <div class="year">
+                    <label for="year">Year</label>
+                    <br>
+                    <input type="text" name="year" placeholder="Enter the year of publication the book "
+                        id="add_book_year">
+                </div>
+                <div class="amount">
+                    <label for="amount">Amout</label>
+                    <br>
+                    <input type="text" name="amount" placeholder="Enter amount of the book\s" id="add_book_amount">
+                </div>
+            </form>
+            <button class="btn"> ADD </button>
+        </div>
+        <div class="last_book_added">
+            <h1>Last book added</h1>
+            <div class="form_last_book_added">
+            </div>
+        </div>
+
+
+
+    <script type="module" src="/JS/books.js"></script>
+    <script type="module" src="/JS/main.js"></script>
+</body>
+
+</html>

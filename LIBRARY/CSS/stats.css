@@ -1,0 +1,182 @@
+/* ----------------------------------------------------------------------------BASE----------------------------------------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Protest+Strike&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    ---orange---: #EC7D23;
+    ---black---: #2E2620;
+    ---orange2---: #d18446;
+    ---black2---: #4b3f36;
+}
+
+.flex {
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.show{
+    z-index: 1;
+}
+
+/* ----------------------------------------------------------------------------SEC----------------------------------------------------------------------------------------------- */
+
+body .sec1{
+    height: 2750px;
+}
+
+.popular_books{
+    position: absolute;
+    background-color: var(---orange---);
+    border: var(---black---) dotted 2px;
+    border-radius: 20%;
+    left: 10%;
+    top: 40px;
+    width: 32%;
+    height: 2650px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.popular_books h1{
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    font-family: "Protest Strike", system-ui;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(---black---);
+}
+
+.sec1 .popular_books h2{
+    margin-left: -27px;
+    margin-top: 80px;
+    font-family: "Protest Strike", system-ui;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(---black---);
+}
+
+.form_popular_books{
+    margin: 0 auto;
+    height: 380px;
+    width: 500px;
+    background-color: var(---orange---);
+    border: var(---black---) dotted 2px;
+    border-radius: 10%;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.form_popular_books h3{
+    margin: 5px 0px;
+    font-family: "Exo 2", system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(---black2---);
+    margin-left: 30px;
+}
+
+.form_popular_books h4{
+    font-family: "Exo 2", system-ui;
+    font-size: 15px;
+    width: 250px;
+    height: 25px;
+    font-weight: 400;
+    border: var(---black2---) dotted 2px;
+    background-color: var(---orange2---);
+    margin-left: 10px;
+}
+
+.form_popular_books .image h3{
+    margin-left: 0px;
+}
+
+.form_popular_books .photo{
+    height: 250px;
+    width: 180px;
+    background-color: var(---orange2---);
+    border: var(---black2---) dotted 2px;
+}
+
+.frequent_visitors{
+    position: absolute;
+    background-color: var(---orange---);
+    border: var(---black---) dotted 2px;
+    border-radius: 20%;
+    left: 60%;
+    top: 40px;
+    width: 32%;
+    height: 2650px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.frequent_visitors h1{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    font-family: "Protest Strike", system-ui;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(---black---);
+}
+
+.sec1 .frequent_visitors h2{
+    margin-left: 30px;
+    margin-top: 80px;
+    font-family: "Protest Strike", system-ui;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(---black---);
+}
+
+.form_frequent_visitors{
+    margin: 0 auto;
+    height: 380px;
+    width: 500px;
+    background-color: var(---orange---);
+    border: var(---black---) dotted 2px;
+    border-radius: 20%;
+    padding-bottom: 20px;
+}
+
+.form_frequent_visitors h3{
+    margin: 5px 0px;
+    font-family: "Exo 2", system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(---black2---);
+    margin-left: 15px;
+}
+
+.form_frequent_visitors h4{
+    font-family: "Exo 2", system-ui;
+    font-size: 15px;
+    width: 200px;
+    height: 25px;
+    font-weight: 400;
+    border: var(---black2---) dotted 2px;
+    background-color: var(---orange2---);
+    margin-left: 155px;
+}
+
+.form_frequent_visitors .tookBook h4{
+    margin-left: 52px;
+    width: 400px;
+    height: 100px;
+}

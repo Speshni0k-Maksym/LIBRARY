@@ -1,0 +1,147 @@
+/* ----------------------------------------------------------------------------BASE----------------------------------------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Protest+Strike&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    ---orange---: #EC7D23;
+    ---black---: #2E2620;
+    ---orange2---: #d18446;
+    ---black2---: #4b3f36;
+}
+
+.flex {
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.show{
+    z-index: 1;
+}
+
+/* ----------------------------------------------------------------------------SEC----------------------------------------------------------------------------------------------- */
+
+.add_visiter{
+    position: absolute;
+    background-color: var(---orange---);
+    border: var(---black---) dotted 2px;
+    border-radius: 20%;
+    left: 10%;
+    top: 40px;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.add_visiter h1{
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    font-family: "Protest Strike", system-ui;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(---black---);
+}
+
+.form_add_visiter{
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.form_add_visiter label{
+    font-family: "Exo 2", system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(---black2---);
+}
+
+.form_add_visiter input{
+    font-family: "Exo 2", system-ui;
+    font-size: 15px;
+    width: 200px;
+    font-weight: 400;
+    border: var(---black2---) dotted 2px;
+    background-color: var(---orange2---);
+    margin: 10px 0px;
+}
+
+.visiter_last_visiter{
+    position: absolute;
+    background-color: var(---orange---);
+    border: var(---black---) dotted 2px;
+    border-radius: 20%;
+    left: 62%;
+    top: 40px;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.visiter_last_visiter h1{
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    font-family: "Protest Strike", system-ui;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(---black---);
+}
+
+.form_visiter_last_visiter{
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.form_visiter_last_visiter h3{
+    margin: 10px 0px;
+    font-family: "Exo 2", system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(---black2---);
+}
+
+.form_visiter_last_visiter h4{
+    font-family: "Exo 2", system-ui;
+    font-size: 15px;
+    width: 200px;
+    font-weight: 400;
+    border: var(---black2---) dotted 2px;
+    background-color: var(---orange2---);
+    margin: 10px 0;
+}
+
+.btn{
+    position: absolute;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    background-color: var(---orange2---);
+    border: var(---black2---) dotted 2px;
+    bottom: 20px;
+    left: 235px;
+    color: var(---black---);
+    font-size: 15px;
+    font-family: "Exo 2", system-ui;
+}
+
+.btn:hover{
+    background-color: var(---black2---);
+    border: var(---orange2---) dotted 2px;
+    color: var(---orange---);
+    font-size: 15px;
+    font-family: "Exo 2", system-ui;
+}

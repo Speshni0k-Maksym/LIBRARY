@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/visiters.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>SPG Library</title>
+</head>
+<body>
+    <div class="menu_box">
+        <h3>MENU</h3>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="/HTML/main.html">Main</a>
+                </li>
+                <li>
+                    <a href="/HTML/search.html">Search</a>
+                </li>
+                <li>
+                    <a href="/HTML/books.html">Books</a>
+                </li>
+                <li>
+                    <a href="/HTML/visiters.html">Visiters</a>
+                </li>
+                <li>
+                    <a href="/HTML/list.html">List</a>
+                </li>
+                <li>
+                    <a href="/HTML/stats.html">Stats</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <header class="flex">
+        <div class="burger flex">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h2 class="header_books">VISITERS</h2>
+        <h1>
+            SPG Library
+        </h1>
+        <h3>
+            You can add visiters to this page!!
+        </h3>
+    </header>
+    <section class="sec1">
+        <div class="add_visiter">
+            <h1>Add visiter</h1>
+            <form action="" class="form_add_visiter">
+                <div class="name_visiter">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" placeholder="Enter name of the visiter" id="name_visiter">
+                </div>
+                <div class="surename_visiter">
+                    <label for="surename">Surename</label>
+                    <br>
+                    <input type="text" name="surename" placeholder="Enter name of the visiter" id="surename_visiter">
+                </div>
+                <div class="age">
+                    <label for="age">Age</label>
+                    <br>
+                    <input type="text" name="age" placeholder="Enter age of the visiter" id="age">
+                </div>
+                <div class="gender">
+                    <label for="gender">Gender</label>
+                    <br>
+                    <input type="text" name="gender" placeholder="Enter gender of the visiter" id="gender">
+                </div>
+            </form>
+            <button class="btn"> ADD </button>
+        </div>
+        <div class="visiter_last_visiter">
+            <h1>Last added visiter</h1>
+            <div class="form_visiter_last_visiter">
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script type="module" src="/JS/visiters.js"></script>
+    <script type="module" src="/JS/main.js"></script>
+</body>
+</html>

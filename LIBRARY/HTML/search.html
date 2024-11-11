@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/search.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>SPG Library</title>
+</head>
+<body>
+    <div class="menu_box">
+        <h3>MENU</h3>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="/HTML/main.html">Main</a>
+                </li>
+                <li>
+                    <a href="/HTML/search.html">Search</a>
+                </li>
+                <li>
+                    <a href="/HTML/books.html">Books</a>
+                </li>
+                <li>
+                    <a href="/HTML/visiters.html">Visiters</a>
+                </li>
+                <li>
+                    <a href="/HTML/list.html">List</a>
+                </li>
+                <li>
+                    <a href="/HTML/stats.html">Stats</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <header class="flex">
+        <div class="burger flex">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h2 class="header_books">SEARCH</h2>
+        <h1>
+            SPG Library
+        </h1>
+        <h3>
+            You can search visiters and books to on this page!!
+        </h3>
+    </header>
+    <section class="sec1">
+        <div class="search_book">
+            <h1>Search book</h1>
+            <form action="" class="form_search_book">
+                <div class="name_book">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" placeholder="Enter name of the book" id="book_name">
+                </div>
+                <div class="author">
+                    <label for="author">Author</label>
+                    <br>
+                    <input type="text" name="author" placeholder="Enter author of the book" id="book_author">
+                </div>
+                <div class="genre">
+                    <label for="genre">Genre</label>
+                    <br>
+                    <input type="text" name="genre" placeholder="Enter genre of the book" id="book_genre">
+                </div>
+                <div class="year">
+                    <label for="year">Year</label>
+                    <br>
+                    <input type="text" name="year" placeholder="Enter the year of publication the book " id="book_year">
+                </div>
+                <button class="btn"> SEARCH </button>
+                <div class="search_added_book">
+                </div>
+            </form>
+        </div>
+        <div class="search_visiter">
+            <h1>Search visiter</h1>
+            <form action="" class="form_search_visiter">
+                <div class="name_visiter">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" placeholder="Enter visiter name" id="name">
+                </div>
+                <div class="surename">
+                    <label for="surename">Surename</label>
+                    <br>
+                    <input type="text" name="surename" placeholder="Enter visiter surename" id="surename">
+                </div>
+                <div class="age">
+                    <label for="age">Age</label>
+                    <br>
+                    <input type="text" name="age" placeholder="Enter visiter age" id="age">
+                </div>
+                <button class="btn"> SEARCH </button>
+                <div class="search_added_visiter flex">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <button class="btn none"> Додати </button>
+    <div class="form_last_book_added none"></div>
+    <div class="form_visiter_last_visiter none"></div>
+    <script type="module" src="/JS/search.js"></script>
+    <script type="module" src="/JS/main.js"></script>
+</body>
+</html>
